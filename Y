@@ -40,7 +40,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
  
-      # Étape test qui échoue
       - name: Vérifier HTML (échouera)
         run: |
           echo " Vérification des fichiers HTML..."
